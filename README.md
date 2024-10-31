@@ -10,6 +10,11 @@ This project uses OpenCV and dlib libraries to perform face recognition and land
 - numpy
 
 You can install the required libraries using the following command
+1.
+  ```bash
+  git clone https://github.com/phonsing-Hub/dlib-opencv.git
+  cd dlib-opencv
+  ```
 ```bash
 pip install -r requirements.txt
 ```
