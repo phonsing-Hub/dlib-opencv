@@ -14,6 +14,15 @@ You can install the required libraries using the following command
    git clone https://github.com/phonsing-Hub/dlib-opencv.git
    cd dlib-opencv
    ```
+2. ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   # On Windows
+   venv\Scripts\activate
+   ```
+3. ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Files Needed
 - `shape_predictor_68_face_landmarks.dat` This file is used for landmark detection. You can download it from [dlib’s model files](https://github.com/davisking/dlib-models) files and extract it.
