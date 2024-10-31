@@ -10,14 +10,10 @@ This project uses OpenCV and dlib libraries to perform face recognition and land
 - numpy
 
 You can install the required libraries using the following command
-1.
-  ```bash
-  git clone https://github.com/phonsing-Hub/dlib-opencv.git
-  cd dlib-opencv
-  ```
-```bash
-pip install -r requirements.txt
-```
+1. ```bash
+   git clone https://github.com/phonsing-Hub/dlib-opencv.git
+   cd dlib-opencv
+   ```
 
 ## Files Needed
 - `shape_predictor_68_face_landmarks.dat` This file is used for landmark detection. You can download it from [dlib’s model files](https://github.com/davisking/dlib-models) files and extract it.
